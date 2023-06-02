@@ -1,0 +1,50 @@
+*{
+  margin:0;
+padding:0;
+}
+
+body
+{
+background: #DFC2BD;
+}
+
+header
+{
+overflow:hidden;
+  
+margin-bottom: 20px;
+background:#106C3D;
+width:100%;
+
+}
+header .titulo
+{
+color:white;
+font-size:70px;
+line-height:150px;
+}
+header nav a
+
+{
+color:white;
+padding:10px 50px;
+line-height:normal;
+display:inline-block;
+text-decoration:none;
+font-size:20px;
+border-radius:5px;
+}
+header nav a:hover
+{
+background-color: #064324;
+-webkit-transition:all 500ms ;
+-o-transition:all 500ms ;
+}
+.todo
+{
+width:90%;
+max-width:1000px;
+margin:auto;
+overflow:hidden;
+color:black;
+}
